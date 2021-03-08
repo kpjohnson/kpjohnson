@@ -1,6 +1,6 @@
 ---
 title: "Kristin Privitera-Johnson"
-image: "ac_kpj.jpg"
+image: "kristimas2.png"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/kristin-privitera-johnson-65041a69/"
