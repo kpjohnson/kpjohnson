@@ -1,0 +1,37 @@
+---
+title: "Kristin Privitera-Johnson"
+image: "ac_kpj.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/kristin-privitera-johnson-65041a69/"
+  - label: Twitter
+    url: "https://twitter.com/KristinPJohnson"
+  - label: GitHub
+    url: "https://github.com/kpjohnson"
+  - label: Email
+    url: "mailto:kpjohns@uw.edu"
+output:
+  postcards::trestles
+---
+ 
+## Bio
+
+I am indeed alive.
+
+## Education
+
+**University of Washington** | Seattle, WA
+
+Ph.D. in Aquatic & Fishery Sciences | April 2019 - Present
+
+**University of Washington** | Seattle, WA
+
+M.S. in Aquatic & Fishery Sciences | September 2015 - March 2019
+
+**California State University, Long Beach** | Long Beach, CA
+
+B.S. in Marine Biology | September 2009 - December 2013
+
+## Experience
+
+You betcha.
