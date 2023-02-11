@@ -1,0 +1,28 @@
+---
+title: "KPJ at-a-glance"
+image: kpj_headshot.jpg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/kristinpjohnson
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/kristin-privitera-johnson-65041a69
+    - icon: github
+      text: Github
+      href: https://github.com/kpjohnson
+
+---
+# Thank you for visiting!
+
+In terms of academic identity, I consider myself an early career fisheries scientist and aspiring stock assessment analyst with a background in marine biology. (In real life, I am a human just doing her best.) I am a PhD student at the University of Washington School of Aquatic and Fishery Sciences.
+
+- **How to pronounce my surname:** PRY-vi-TE-ruh JOHN-sen
+- **Pronouns:** she/her/hers
+- **Hometown:** Los Alamitos, CA, USA​
+- **KPJ interests:** Big sister (N=4); Fantasy novels & media; Video games (RPGs and rogue-likes); Handicrafts
+- **Academic keywords:** scientific uncertainty, stock assessment, management strategy evaluation, harvest control rules, uncertainty buffers
+- **Favorite fish:** *Mola mola*
