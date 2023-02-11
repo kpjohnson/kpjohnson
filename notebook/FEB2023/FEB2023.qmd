@@ -9,7 +9,9 @@ format:
 ---
 
 # Monthly Goals
-To be added
+- Review the Population Dynamics section of the Punt Student reading list
+- Prepare the second draft of the Proposal Presentation for my General Exam
+- Write code to implement a linear ramp for the phasing in harvest control rule for Ch. 1
 
 # Daily Snapshots
 
