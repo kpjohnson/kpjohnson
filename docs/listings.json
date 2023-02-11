@@ -8,5 +8,11 @@
   {
     "listing": "/posts/autobiographical/preUWSAFS.html",
     "items": []
+  },
+  {
+    "listing": "/notebook.html",
+    "items": [
+      "/notebook/FEB2023/FEB2023.html"
+    ]
   }
 ]

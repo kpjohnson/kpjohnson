@@ -1,0 +1,21 @@
+---
+title: "February 2023 Goals"
+author: "Kristin Privitera-Johnson"
+date: "2023-02-10"
+categories: ["SAFS", "monthly goals"]
+format:
+  html:
+    toc: true
+---
+
+# Monthly Goals
+To be added
+
+# Daily Snapshots
+
+## 10 February 2023
+
+- met with weekly accountability group to conduct a retrospective for this week's work and to establish priorities for next week's work
+- created a quarto version of my personal website
+- created a research notebook section of the website
+    - inspired by [Steven Roberts](https://sr320.github.io/)'s lab practices (particularly the work of [Chris Mantegna](https://chrismantegna.github.io/) and [Sarah Tanja](https://sarahtanja.github.io/lab-book/))

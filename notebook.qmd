@@ -1,9 +1,9 @@
 ---
-title: "Blog Posts"
+title: "Research Notebook"
 listing:
-  contents: posts
+  contents: notebook
   sort: "date desc"
-  type: grid
+  type: table
   categories: true
   sort-ui: false
   filter-ui: false
@@ -11,5 +11,4 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-
 
