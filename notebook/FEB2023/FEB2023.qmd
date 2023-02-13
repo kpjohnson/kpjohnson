@@ -15,6 +15,13 @@ format:
 
 # Daily Snapshots
 
+## 13 February 2023
+
+- travel day
+- studied for General Exam (Population Dynamics section)
+- added Masters research summary pages to personal website
+- added Towards best practices in selex paper to personal website
+
 ## 10 February 2023
 
 - met with weekly accountability group to conduct a retrospective for this week's work and to establish priorities for next week's work

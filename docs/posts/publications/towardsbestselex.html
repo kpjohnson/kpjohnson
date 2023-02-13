@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kristin Privitera-Johnson">
-<meta name="dcterms.date" content="2023-02-10">
+<meta name="dcterms.date" content="2023-02-13">
+<meta name="description" content="Simulation testing some ‘rules of thumb’ for specifying fisheries selectivity in age-structured integrated stock assessments">
 
-<title>Kristin Privitera-Johnson - February 2023 Goals</title>
+<title>Kristin Privitera-Johnson - How can we model fishery harvest?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -106,84 +107,78 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">How can we model fishery harvest?</h1>
+                  <div>
+        <div class="description">
+          Simulation testing some ‘rules of thumb’ for specifying fisheries selectivity in age-structured integrated stock assessments
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">best practice</div>
+                <div class="quarto-category">non-parametric selectivity</div>
+                <div class="quarto-category">simulation</div>
+                <div class="quarto-category">stock assessment</div>
+                <div class="quarto-category">Stock Synthesis</div>
+                <div class="quarto-category">research</div>
+                <div class="quarto-category">SAFS</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kristin Privitera-Johnson </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 13, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#monthly-goals" id="toc-monthly-goals" class="nav-link active" data-scroll-target="#monthly-goals">Monthly Goals</a></li>
-  <li><a href="#daily-snapshots" id="toc-daily-snapshots" class="nav-link" data-scroll-target="#daily-snapshots">Daily Snapshots</a>
-  <ul class="collapse">
-  <li><a href="#february-2023" id="toc-february-2023" class="nav-link" data-scroll-target="#february-2023">13 February 2023</a></li>
-  <li><a href="#february-2023-1" id="toc-february-2023-1" class="nav-link" data-scroll-target="#february-2023-1">10 February 2023</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">February 2023 Goals</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">SAFS</div>
-    <div class="quarto-category">monthly goals</div>
-  </div>
-  </div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Kristin Privitera-Johnson </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 10, 2023</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-</header>
-
-<section id="monthly-goals" class="level1">
-<h1>Monthly Goals</h1>
-<ul>
-<li>Review the Population Dynamics section of the Punt Student reading list</li>
-<li>Prepare the second draft of the Proposal Presentation for my General Exam</li>
-<li>Write code to implement a linear ramp for the phasing in harvest control rule for Ch. 1</li>
-</ul>
+<section id="towards-best-practice-for-specifying-selectivity-in-age-structured-integrated-stock-assessments" class="level1">
+<h1>Towards best practice for specifying selectivity in age-structured integrated stock assessments</h1>
+<section id="project-summary" class="level2">
+<h2 class="anchored" data-anchor-id="project-summary">Project summary:</h2>
+<p>Specification of how selectivity (the combination of availability and vulnerability) is modelled in integrated stock assessments is key to avoiding bias in estimates of quantities of management interest. Many “rules of thumb” are common in the community but these have yet to be rigorously tested. This paper uses simulation to compare 12 approaches for specifying selectivity in an age-structured integrated stock assessment, including parametric and non-parametric approaches. The operating model represents a two-fishery case where selectivity for one or both fisheries can be dome-shaped and/or time-varying. The results suggest that using AIC to select among selectivity forms is not robust, including when model misspecification is absent, even though the use of model selection criteria such as AIC is common when conducting stock assessments. The use of double normal selectivity was found to be most robust to uncertainty in the true form of selectivity. Estimation of time-variation in selectivity did not lead to appreciable improvements in performance when the true time-variation was random. The double normal form performed poorly if M was estimated along with the other model parameters. Similarly, use of flexible parametric methods, such as splines, performed adequately with informative data, but poorly when the catch series exhibited low contrast and age-composition data were not available from the start of the fishery. This suggests that the best practices for selectivity will depend on knowledge of the likely information content of the data.</p>
+<p><strong>Status:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0165783622000248?via%3Dihub">Published</a></p>
+<p><strong>GitHub:</strong> Not currently available.</p>
+<p><strong>Keywords:</strong> best practice, non-parametric selectivity, simulation, stock assessment, Stock Synthesis</p>
 </section>
-<section id="daily-snapshots" class="level1">
-<h1>Daily Snapshots</h1>
-<section id="february-2023" class="level2">
-<h2 class="anchored" data-anchor-id="february-2023">13 February 2023</h2>
+<section id="key-definitions" class="level2">
+<h2 class="anchored" data-anchor-id="key-definitions">Key definitions:</h2>
 <ul>
-<li>travel day</li>
-<li>studied for General Exam (Population Dynamics section)</li>
-</ul>
-</section>
-<section id="february-2023-1" class="level2">
-<h2 class="anchored" data-anchor-id="february-2023-1">10 February 2023</h2>
+<li><strong>Selectivity:</strong> length- or age-based probabilities used to link observed composition data to model predictions about population abundance-at-age/-size.</li>
+<li><strong>Availability:</strong> the probability that a fish of a specific age or size is in the same vicinity at the same time as fishing gear deployment</li>
+<li><strong>Contact (or gear) selectivity:</strong> the relative probability that a fish of a specific age or size is caught given it is available to the gear</li>
+<li>Statistical methods for estimating selectivity:
 <ul>
-<li>met with weekly accountability group to conduct a retrospective for this week’s work and to establish priorities for next week’s work</li>
-<li>created a quarto version of my personal website</li>
-<li>created a research notebook section of the website
-<ul>
-<li>inspired by <a href="https://sr320.github.io/">Steven Roberts</a>’s lab practices (particularly the work of <a href="https://chrismantegna.github.io/">Chris Mantegna</a> and <a href="https://sarahtanja.github.io/lab-book/">Sarah Tanja</a>)</li>
+<li><strong>Parametric models:</strong> estimate selectivity using a range of parameters, dependent on the complexity of the population dynamics model</li>
+<li><strong>Flexible parametric models:</strong> (e.g., splines) estimate selectivity using an informative and explicit prior function that can be updated by the available data when predicting future observations</li>
+<li><strong>Non-parametric models:</strong> estimate selectivity by age and penalize large fluctuations in selectivity between ages</li>
 </ul></li>
 </ul>
 
