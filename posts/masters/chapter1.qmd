@@ -3,7 +3,7 @@ title: 'What is scientific uncertainty and how do stock assessment scientists qu
 description: "A review of scientific uncertainty in fisheries stock assessment"
 author: "Kristin Privitera-Johnson"
 date: "2023-02-13"
-categories: ['masters', 'research', 'scientific uncertainty', 'SAFS']
+categories: ['masters', 'research', 'scientific uncertainty', 'stock assessment', 'scientific advice', 'SAFS']
 
 ---
 
@@ -25,3 +25,5 @@ Scientific uncertainty affects all parts of the fisheries management process. Th
 - **Process uncertainty:** the uncertainty due to underlying stochasticity in stock dynamics such as recruitment or variation in the growth of a fish stock
 - **Model uncertainty:** the misspecification of model parameters or structure (e.g., assuming the incorrect form for selectivity as a function of size)
 - **Estimation uncertainty:** the inaccuracy and imprecision associated with estimated model parameters
+
+![Frequencies of uncertainty methods used by model framework pooled over the 20 years of available assessments](ch1figure.png)

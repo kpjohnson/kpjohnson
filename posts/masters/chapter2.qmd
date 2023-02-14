@@ -25,4 +25,5 @@ Probability-based harvest control rules can incorporate scientific uncertainty a
 - **Acceptable biological catch (ABC)** is a level of a stock or stock complex’s annual catch that accounts for the scientific uncertainty in the estimate of OFL and any other scientific uncertainty and should be species based on the ABC control rule.
 - **ABC control rule** is a specified approach to setting the ABC for a stock or stock complex as a function of the scientific uncertainty in the estimate of OFL and any other scientific uncertainty.
 
+![A conceptual overview of the projection-based approach using the projection start years of 1998, 2003, and 2008 as an example](ch2figure.png)
 

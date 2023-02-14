@@ -30,3 +30,5 @@ Specification of how selectivity (the combination of availability and vulnerabil
     - **Parametric models:** estimate selectivity using a range of parameters, dependent on the complexity of the population dynamics model
     - **Flexible parametric models:** (e.g., splines) estimate selectivity using an informative and explicit prior function that can be updated by the available data when predicting future observations
     - **Non-parametric models:** estimate selectivity by age and penalize large fluctuations in selectivity between ages
+
+![Model fits produced by various methods for estimating selectivity](selex.png)
