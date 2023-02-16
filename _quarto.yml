@@ -1,13 +1,17 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: docss
 
 website:
   title: "Kristin Privitera-Johnson"
   navbar:
     right:
-      - blog.qmd
-      - notebook.qmd
+      - href: blog.qmd
+        text: News
+      - href: notebook.qmd
+        text: Research Notebook
+      - href: https://kpjohnson.github.io/ESM254/
+        text: ESM 254
       - icon: github
         href: https://github.com/kpjohnson
       - icon: twitter

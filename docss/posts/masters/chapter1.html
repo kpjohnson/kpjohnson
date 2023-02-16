@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kristin Privitera-Johnson">
+<meta name="dcterms.date" content="2023-02-13">
+<meta name="description" content="A review of scientific uncertainty in fisheries stock assessment">
 
-<title>Kristin Privitera-Johnson - Research Notebook</title>
+<title>Kristin Privitera-Johnson - What is scientific uncertainty and how do stock assessment scientists quantify it?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,49 +61,19 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Kristin Privitera-Johnson</span>
     </a>
   </div>
@@ -112,12 +83,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html">
- <span class="menu-text">Blog Posts</span></a>
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./notebook.html" aria-current="page">
+    <a class="nav-link" href="../../notebook.html">
  <span class="menu-text">Research Notebook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://kpjohnson.github.io/ESM254/">
+ <span class="menu-text">ESM 254</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/kpjohnson"><i class="bi bi-github" role="img">
@@ -138,88 +113,82 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Research Notebook</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">What is scientific uncertainty and how do stock assessment scientists quantify it?</h1>
+                  <div>
+        <div class="description">
+          A review of scientific uncertainty in fisheries stock assessment
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">masters</div>
+                <div class="quarto-category">research</div>
+                <div class="quarto-category">scientific uncertainty</div>
+                <div class="quarto-category">stock assessment</div>
+                <div class="quarto-category">scientific advice</div>
+                <div class="quarto-category">SAFS</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kristin Privitera-Johnson </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 13, 2023</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SAFS">SAFS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="monthly goals">monthly goals <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-</th>
-<th>
-Date
-</th>
-<th>
-Title
-</th>
-<th>
-Author
-</th>
-<th>
-Categories
-</th>
-<th>
-Reading Time
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="SAFS,monthly goals" data-listing-date-sort="1676016000000" data-listing-file-modified-sort="1676520768663" data-listing-reading-time-sort="1.515" data-listing-title-sort="February 2023 Goals" data-listing-filename-sort="FEB2023.qmd">
-<td class="listing-image">
-<img src="./notebook/FEB2023/valentine.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-Feb 10, 2023
-</td>
-<td class="listing-title">
-<a href="./notebook/FEB2023/FEB2023.html" class="title">February 2023 Goals</a>
-</td>
-<td class="listing-author">
-Kristin Privitera-Johnson
-</td>
-<td class="listing-categories">
-SAFS,monthly goals
-</td>
-<td class="listing-reading-time">
-1 min
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<section id="project-summary" class="level1">
+<h1>Project summary:</h1>
+<p>Scientific uncertainty affects all parts of the fisheries management process. This study reviews methods for quantifying scientific uncertainty for presentation as part of the scientific advice to fisheries managers. We surveyed stock assessment scientists to a) identify the methods commonly used to quantify uncertainty, b) describe how method use has changed over time, c) investigate the factors that influence which methods are used, and d) characterize how scientific uncertainty is presented to fisheries managers. We found that scientific uncertainty is being quantified and included in scientific advice across multiple fishery management systems. Frequentist approaches for quantifying uncertainty are used more broadly than Bayesian approaches, and the survey did not detect this changing over time. Time restrictions and methodology requests during the scientific review process were commonly reported as factors influencing the use of uncertainty methods. Uncertainty in estimates of management targets (e.g., fishing mortality or biomass), projections, and catch limits were the quantities most frequently included in the scientific advice presented to fisheries managers. Methods for quantifying uncertainty and their incorporation into management advice are quickly advancing, and our approaches for reviewing progress towards clearly and explicitly communicating the sources, treatment, and impacts of uncertainty in management processes must keep pace.</p>
+<p><strong>Status:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0165783620300205?via%3Dihub">Published</a></p>
+<p><strong>GitHub:</strong> Not applicable.</p>
+<p><strong>Keywords:</strong> scientific uncertainty; stock assessment; scientific advice</p>
+</section>
+<section id="key-definitions" class="level1">
+<h1>Key definitions</h1>
+<p><strong>Scientific uncertainty</strong> is an umbrella term for observation, process, model, and estimation uncertainties.</p>
+<ul>
+<li><strong>Observation uncertainty:</strong> the uncertainty in measurement of observable quantities such as biomass from surveys, catch or sizes-at-age</li>
+<li><strong>Process uncertainty:</strong> the uncertainty due to underlying stochasticity in stock dynamics such as recruitment or variation in the growth of a fish stock</li>
+<li><strong>Model uncertainty:</strong> the misspecification of model parameters or structure (e.g., assuming the incorrect form for selectivity as a function of size)</li>
+<li><strong>Estimation uncertainty:</strong> the inaccuracy and imprecision associated with estimated model parameters</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ch1figure.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Frequencies of uncertainty methods used by model framework pooled over the 20 years of available assessments</figcaption><p></p>
+</figure>
 </div>
-</div></main> <!-- /main -->
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
