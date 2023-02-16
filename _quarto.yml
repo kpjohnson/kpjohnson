@@ -16,6 +16,13 @@ website:
         href: https://github.com/kpjohnson
       - icon: twitter
         href: https://twitter.com/kristinpjohnson
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "G-1S0WLJGSQ5"
+    anonymize-ip: true
 format:
   html:
     theme: sandstone
