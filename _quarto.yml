@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docss
+  output-dir: docs
 
 website:
   title: "Kristin Privitera-Johnson"
