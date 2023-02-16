@@ -31,15 +31,15 @@
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023",
     "href": "notebook/FEB2023/FEB2023.html#february-2023",
     "title": "February 2023 Goals",
-    "section": "13 February 2023",
-    "text": "13 February 2023\n\ntravel day\nstudied for General Exam (Population Dynamics section)\nadded Masters research summary pages to personal website\nadded Towards best practices in selex paper to personal website"
+    "section": "15 February 2023",
+    "text": "15 February 2023\n\nran 1 simulation using status quo harvest control rule, run 1 simulation using phase-in HCR\ncreated table in Excel comparing the ABCs for each harvest control rule\n\ntotal catch should be the same\nhow that total catch is distributed should change–did the catch linearly increase or decrease when using phase-in? If yes, good!\n\ndiscovered a new question/problem for tomorrow: what is the best way to simulate the ABC from the last management period…for the first simulated management period.\n\ntomorrow, I’ll just have a status quo assessment go first and then have the phase-in HCR turn on for the next assessment.\n\ntackled so many email demons today (so many)"
   },
   {
     "objectID": "notebook.html",
     "href": "notebook.html",
     "title": "Research Notebook",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\n\n \n\n\n\nFeb 10, 2023\n\n\nFebruary 2023 Goals\n\n\nKristin Privitera-Johnson\n\n\nSAFS,monthly goals\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nFeb 10, 2023\n\n\nFebruary 2023 Goals\n\n\nKristin Privitera-Johnson\n\n\nSAFS,monthly goals\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/masters/chapter1.html",
@@ -52,8 +52,8 @@
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023-1",
     "href": "notebook/FEB2023/FEB2023.html#february-2023-1",
     "title": "February 2023 Goals",
-    "section": "10 February 2023",
-    "text": "10 February 2023\n\nmet with weekly accountability group to conduct a retrospective for this week’s work and to establish priorities for next week’s work\ncreated a quarto version of my personal website\ncreated a research notebook section of the website\n\ninspired by Steven Roberts’s lab practices (particularly the work of Chris Mantegna and Sarah Tanja)"
+    "section": "14 February 2023",
+    "text": "14 February 2023\n\nparticipated in weekly accountability group writing/coding session (Chapter 1)\nrevised Ch. 1 phase-in harvest control rule protocol for implementation into ratpackmse software\nimplemented new protocol into ratpackmse\n\nHappy Valentine’s Day \nImage from an Etsy Shop, no affiliation"
   },
   {
     "objectID": "posts/masters/chapter2.html",
@@ -68,5 +68,19 @@
     "title": "How can we model fishery harvest?",
     "section": "",
     "text": "Specification of how selectivity (the combination of availability and vulnerability) is modelled in integrated stock assessments is key to avoiding bias in estimates of quantities of management interest. Many “rules of thumb” are common in the community but these have yet to be rigorously tested. This paper uses simulation to compare 12 approaches for specifying selectivity in an age-structured integrated stock assessment, including parametric and non-parametric approaches. The operating model represents a two-fishery case where selectivity for one or both fisheries can be dome-shaped and/or time-varying. The results suggest that using AIC to select among selectivity forms is not robust, including when model misspecification is absent, even though the use of model selection criteria such as AIC is common when conducting stock assessments. The use of double normal selectivity was found to be most robust to uncertainty in the true form of selectivity. Estimation of time-variation in selectivity did not lead to appreciable improvements in performance when the true time-variation was random. The double normal form performed poorly if M was estimated along with the other model parameters. Similarly, use of flexible parametric methods, such as splines, performed adequately with informative data, but poorly when the catch series exhibited low contrast and age-composition data were not available from the start of the fishery. This suggests that the best practices for selectivity will depend on knowledge of the likely information content of the data.\nStatus: Published\nGitHub: Not currently available.\nKeywords: best practice, non-parametric selectivity, simulation, stock assessment, Stock Synthesis\n\n\n\n\nSelectivity: length- or age-based probabilities used to link observed composition data to model predictions about population abundance-at-age/-size.\nAvailability: the probability that a fish of a specific age or size is in the same vicinity at the same time as fishing gear deployment\nContact (or gear) selectivity: the relative probability that a fish of a specific age or size is caught given it is available to the gear\nStatistical methods for estimating selectivity:\n\nParametric models: estimate selectivity using a range of parameters, dependent on the complexity of the population dynamics model\nFlexible parametric models: (e.g., splines) estimate selectivity using an informative and explicit prior function that can be updated by the available data when predicting future observations\nNon-parametric models: estimate selectivity by age and penalize large fluctuations in selectivity between ages\n\n\n\n\n\nModel fits produced by various methods for estimating selectivity"
+  },
+  {
+    "objectID": "notebook/FEB2023/FEB2023.html#february-2023-2",
+    "href": "notebook/FEB2023/FEB2023.html#february-2023-2",
+    "title": "February 2023 Goals",
+    "section": "13 February 2023",
+    "text": "13 February 2023\n\ntravel day (~3 hours waiting for a gate at SEATAC, what a time to be alive)\nstudied for General Exam (Population Dynamics section)\nadded Masters research summary pages to personal website\nadded Towards best practices in selex paper to personal website"
+  },
+  {
+    "objectID": "notebook/FEB2023/FEB2023.html#february-2023-3",
+    "href": "notebook/FEB2023/FEB2023.html#february-2023-3",
+    "title": "February 2023 Goals",
+    "section": "10 February 2023",
+    "text": "10 February 2023\n\nmet with weekly accountability group to conduct a retrospective for this week’s work and to establish priorities for next week’s work\ncreated a quarto version of my personal website\ncreated a research notebook section of the website\n\ninspired by Steven Roberts’s lab practices (particularly the work of Chris Mantegna and Sarah Tanja)"
   }
 ]

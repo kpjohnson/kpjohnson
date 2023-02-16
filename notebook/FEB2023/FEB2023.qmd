@@ -15,9 +15,30 @@ format:
 
 # Daily Snapshots
 
+## 15 February 2023
+
+- ran 1 simulation using status quo harvest control rule, run 1 simulation using phase-in HCR
+- created table in Excel comparing the ABCs for each harvest control rule
+  - total catch should be the same
+  - how that total catch is distributed should change--did the catch linearly increase or decrease when using phase-in? If yes, good!
+- discovered a new question/problem for tomorrow: what is the best way to simulate the ABC from the last management period...for the first simulated management period.
+  - tomorrow, I'll just have a status quo assessment go first and then have the phase-in HCR turn on for the next assessment.
+- tackled so many email demons today (so many)
+
+## 14 February 2023
+
+- participated in weekly accountability group writing/coding session (Chapter 1)
+- revised Ch. 1 phase-in harvest control rule protocol for implementation into ratpackmse software
+- implemented new protocol into ratpackmse 
+
+**Happy Valentine's Day** 
+![](valentine.png)
+
+Image from an [Etsy Shop](https://www.etsy.com/uk/listing/592099432/you-light-up-my-life-angler-fish), no affiliation
+
 ## 13 February 2023
 
-- travel day
+- travel day (~3 hours waiting for a gate at SEATAC, what a time to be alive)
 - studied for General Exam (Population Dynamics section)
 - added Masters research summary pages to personal website
 - added Towards best practices in selex paper to personal website
