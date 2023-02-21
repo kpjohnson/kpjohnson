@@ -15,6 +15,16 @@ format:
 
 # Daily Snapshots
 
+## 20 February 2023
+
+- Created a schedule for the rest of the WIN quarter for meeting my Monthly goals
+- Technically a UW holiday today--but did quite a bit to set up to hit the ground running tomorrow  
+
+## 16 February 2023
+
+- Met with AEP to discuss my Ch. 1 question
+- Now I will use the average catch for the five previous years to "initialize" the ABC I need from the last management period
+
 ## 15 February 2023
 
 - ran 1 simulation using status quo harvest control rule, run 1 simulation using phase-in HCR
