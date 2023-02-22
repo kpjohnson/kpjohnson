@@ -15,6 +15,21 @@ format:
 
 # Daily Snapshots
 
+## 21 February 2023
+
+- Reviewed Ch. 3 methodology, preparing answers to these questions (I mostly wrote these):
+  - Describe what I mean by ensemble modelling
+  - What are the various approaches to ensemble modelling?
+  - What are the outcomes for each ensemble modelling method? What do these outcomes mean in the context of model uncertainty?
+  - Which ensemble modelling approach is most appropriate for climate models given uncertainty in model structure, initial conditions, and RCP scenarios?
+  - What do I mean by "single climate model" in my proposed methods?
+  - Does the definition of "single climate model" that I use impact model misspecification? In what ways?
+  - What ARE the consequences of model misspecification associated with selecting a "single climate model" for assessments and forecasts? (since I am trying to mitigate those consequences)
+    - What are the disadvantages of the "single assessment model paradigm" vs. avantages of ensemble models?
+    - How will I even KNOW that the benefits of ensemble modelling outweight the disadvantages posed by ensemble modelling?
+    - What are the "signs" I should look for in my performance metrics?
+    - What are the management objectives that these metrics are measuring? How much influence does the management objective design have on the performance of the ensemble modelling methods?
+
 ## 20 February 2023
 
 - Created a schedule for the rest of the WIN quarter for meeting my Monthly goals
