@@ -2,7 +2,7 @@
 title: "February 2023 Goals"
 author: "Kristin Privitera-Johnson"
 date: "2023-02-10"
-categories: ["SAFS", "monthly goals"]
+categories: ["SAFS", "monthly goals", "daily snapshots"]
 format:
   html:
     toc: true
@@ -14,6 +14,12 @@ format:
 - Write code to implement a linear ramp for the phasing in harvest control rule for Ch. 1
 
 # Daily Snapshots
+
+## 22 February 2023
+
+- Reading [Dormann et al. 2018](https://onlinelibrary.wiley.com/doi/abs/10.1002/ecm.1309) to continue mapping out the answers to the questions I posed yesterday
+  - Looks like I was able to deep dive into the first 6 pages or so: mostly the math behind model averaging and the review of "known properties" of model averaging and quantifying uncertainty
+  - Tomorrow is going to be all about methods for estimating model weights
 
 ## 21 February 2023
 
