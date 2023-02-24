@@ -24,29 +24,29 @@
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023",
     "href": "notebook/FEB2023/FEB2023.html#february-2023",
     "title": "February 2023 Goals",
-    "section": "22 February 2023",
-    "text": "22 February 2023\n\nReading Dormann et al. 2018 to continue mapping out the answers to the questions I posed yesterday\n\nLooks like I was able to deep dive into the first 6 pages or so: mostly the math behind model averaging and the review of “known properties” of model averaging and quantifying uncertainty\nTomorrow is going to be all about methods for estimating model weights"
+    "section": "23 February 2023",
+    "text": "23 February 2023\n\nReading Dormann et al. 2018\nDrew the conceptual figure below to digest what I read yesterday\nOutlined what estimating uncertainty in model-averaged predictions looks like for tactical (e.g., machine learning), frequentist, and Bayesian approaches to model averaging. Needs more digestion though.\nWill need more time with methods for estimating model weights tomorrow, too.\n\n\n\n\nA snapshot my current thoughts about the ‘usefulness’ of model averaging."
   },
   {
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023-1",
     "href": "notebook/FEB2023/FEB2023.html#february-2023-1",
     "title": "February 2023 Goals",
-    "section": "21 February 2023",
-    "text": "21 February 2023\n\nReviewed Ch. 3 methodology, preparing answers to these questions (I mostly wrote these):\n\nDescribe what I mean by ensemble modelling\nWhat are the various approaches to ensemble modelling?\nWhat are the outcomes for each ensemble modelling method? What do these outcomes mean in the context of model uncertainty?\nWhich ensemble modelling approach is most appropriate for climate models given uncertainty in model structure, initial conditions, and RCP scenarios?\nWhat do I mean by “single climate model” in my proposed methods?\nDoes the definition of “single climate model” that I use impact model misspecification? In what ways?\nWhat ARE the consequences of model misspecification associated with selecting a “single climate model” for assessments and forecasts? (since I am trying to mitigate those consequences)\n\nWhat are the disadvantages of the “single assessment model paradigm” vs. avantages of ensemble models?\nHow will I even KNOW that the benefits of ensemble modelling outweight the disadvantages posed by ensemble modelling?\nWhat are the “signs” I should look for in my performance metrics?\nWhat are the management objectives that these metrics are measuring? How much influence does the management objective design have on the performance of the ensemble modelling methods?"
+    "section": "22 February 2023",
+    "text": "22 February 2023\n\nReading Dormann et al. 2018 to continue mapping out the answers to the questions I posed yesterday\n\nLooks like I was able to deep dive into the first 6 pages or so: mostly the math behind model averaging and the review of “known properties” of model averaging and quantifying uncertainty\nTomorrow is going to be all about methods for estimating model weights"
   },
   {
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023-2",
     "href": "notebook/FEB2023/FEB2023.html#february-2023-2",
     "title": "February 2023 Goals",
-    "section": "20 February 2023",
-    "text": "20 February 2023\n\nCreated a schedule for the rest of the WIN quarter for meeting my Monthly goals\nTechnically a UW holiday today–but did quite a bit to set up to hit the ground running tomorrow"
+    "section": "21 February 2023",
+    "text": "21 February 2023\n\nReviewed Ch. 3 methodology, preparing answers to these questions (I mostly wrote these):\n\nDescribe what I mean by ensemble modelling\nWhat are the various approaches to ensemble modelling?\nWhat are the outcomes for each ensemble modelling method? What do these outcomes mean in the context of model uncertainty?\nWhich ensemble modelling approach is most appropriate for climate models given uncertainty in model structure, initial conditions, and RCP scenarios?\nWhat do I mean by “single climate model” in my proposed methods?\nDoes the definition of “single climate model” that I use impact model misspecification? In what ways?\nWhat ARE the consequences of model misspecification associated with selecting a “single climate model” for assessments and forecasts? (since I am trying to mitigate those consequences)\n\nWhat are the disadvantages of the “single assessment model paradigm” vs. avantages of ensemble models?\nHow will I even KNOW that the benefits of ensemble modelling outweight the disadvantages posed by ensemble modelling?\nWhat are the “signs” I should look for in my performance metrics?\nWhat are the management objectives that these metrics are measuring? How much influence does the management objective design have on the performance of the ensemble modelling methods?"
   },
   {
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023-3",
     "href": "notebook/FEB2023/FEB2023.html#february-2023-3",
     "title": "February 2023 Goals",
-    "section": "16 February 2023",
-    "text": "16 February 2023\n\nMet with AEP to discuss my Ch. 1 question\nNow I will use the average catch for the five previous years to “initialize” the ABC I need from the last management period"
+    "section": "20 February 2023",
+    "text": "20 February 2023\n\nCreated a schedule for the rest of the WIN quarter for meeting my Monthly goals\nTechnically a UW holiday today–but did quite a bit to set up to hit the ground running tomorrow"
   },
   {
     "objectID": "notebook.html",
@@ -87,26 +87,33 @@
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023-4",
     "href": "notebook/FEB2023/FEB2023.html#february-2023-4",
     "title": "February 2023 Goals",
-    "section": "15 February 2023",
-    "text": "15 February 2023\n\nran 1 simulation using status quo harvest control rule, run 1 simulation using phase-in HCR\ncreated table in Excel comparing the ABCs for each harvest control rule\n\ntotal catch should be the same\nhow that total catch is distributed should change–did the catch linearly increase or decrease when using phase-in? If yes, good!\n\ndiscovered a new question/problem for tomorrow: what is the best way to simulate the ABC from the last management period…for the first simulated management period.\n\ntomorrow, I’ll just have a status quo assessment go first and then have the phase-in HCR turn on for the next assessment.\n\ntackled so many email demons today (so many)"
+    "section": "16 February 2023",
+    "text": "16 February 2023\n\nMet with AEP to discuss my Ch. 1 question\nNow I will use the average catch for the five previous years to “initialize” the ABC I need from the last management period"
   },
   {
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023-5",
     "href": "notebook/FEB2023/FEB2023.html#february-2023-5",
     "title": "February 2023 Goals",
-    "section": "14 February 2023",
-    "text": "14 February 2023\n\nparticipated in weekly accountability group writing/coding session (Chapter 1)\nrevised Ch. 1 phase-in harvest control rule protocol for implementation into ratpackmse software\nimplemented new protocol into ratpackmse\n\nHappy Valentine’s Day\n\nImage from an Etsy Shop, no affiliation"
+    "section": "15 February 2023",
+    "text": "15 February 2023\n\nran 1 simulation using status quo harvest control rule, run 1 simulation using phase-in HCR\ncreated table in Excel comparing the ABCs for each harvest control rule\n\ntotal catch should be the same\nhow that total catch is distributed should change–did the catch linearly increase or decrease when using phase-in? If yes, good!\n\ndiscovered a new question/problem for tomorrow: what is the best way to simulate the ABC from the last management period…for the first simulated management period.\n\ntomorrow, I’ll just have a status quo assessment go first and then have the phase-in HCR turn on for the next assessment.\n\ntackled so many email demons today (so many)"
   },
   {
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023-6",
     "href": "notebook/FEB2023/FEB2023.html#february-2023-6",
     "title": "February 2023 Goals",
-    "section": "13 February 2023",
-    "text": "13 February 2023\n\ntravel day (~3 hours waiting for a gate at SEATAC, what a time to be alive)\nstudied for General Exam (Population Dynamics section)\nadded Masters research summary pages to personal website\nadded Towards best practices in selex paper to personal website"
+    "section": "14 February 2023",
+    "text": "14 February 2023\n\nparticipated in weekly accountability group writing/coding session (Chapter 1)\nrevised Ch. 1 phase-in harvest control rule protocol for implementation into ratpackmse software\nimplemented new protocol into ratpackmse\n\nHappy Valentine’s Day\n\nImage from an Etsy Shop, no affiliation"
   },
   {
     "objectID": "notebook/FEB2023/FEB2023.html#february-2023-7",
     "href": "notebook/FEB2023/FEB2023.html#february-2023-7",
+    "title": "February 2023 Goals",
+    "section": "13 February 2023",
+    "text": "13 February 2023\n\ntravel day (~3 hours waiting for a gate at SEATAC, what a time to be alive)\nstudied for General Exam (Population Dynamics section)\nadded Masters research summary pages to personal website\nadded Towards best practices in selex paper to personal website"
+  },
+  {
+    "objectID": "notebook/FEB2023/FEB2023.html#february-2023-8",
+    "href": "notebook/FEB2023/FEB2023.html#february-2023-8",
     "title": "February 2023 Goals",
     "section": "10 February 2023",
     "text": "10 February 2023\n\nmet with weekly accountability group to conduct a retrospective for this week’s work and to establish priorities for next week’s work\ncreated a quarto version of my personal website\ncreated a research notebook section of the website\n\ninspired by Steven Roberts’s lab practices (particularly the work of Chris Mantegna and Sarah Tanja)"

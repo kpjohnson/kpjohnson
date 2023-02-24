@@ -15,6 +15,14 @@ format:
 
 # Daily Snapshots
 
+## 23 February 2023
+- Reading [Dormann et al. 2018](https://onlinelibrary.wiley.com/doi/abs/10.1002/ecm.1309)
+- Drew the conceptual figure below to digest what I read yesterday
+- Outlined what estimating uncertainty in model-averaged predictions looks like for tactical (e.g., machine learning), frequentist, and Bayesian approaches to model averaging. Needs more digestion though.
+- Will need more time with methods for estimating model weights tomorrow, too.
+
+![A snapshot my current thoughts about the 'usefulness' of model averaging.](modavg.jpg)
+
 ## 22 February 2023
 
 - Reading [Dormann et al. 2018](https://onlinelibrary.wiley.com/doi/abs/10.1002/ecm.1309) to continue mapping out the answers to the questions I posed yesterday
