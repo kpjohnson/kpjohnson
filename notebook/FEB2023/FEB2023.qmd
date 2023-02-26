@@ -15,6 +15,13 @@ format:
 
 # Daily Snapshots
 
+## 24 February 2023
+- met with weekly accountability group to conduct a retrospective for this week's work and to establish priorities for next week's work
+- attended Quantitative Seminar
+- reading [Dormann et al. 2018](https://onlinelibrary.wiley.com/doi/abs/10.1002/ecm.1309)
+  - waist deep in techniques for estimating model weights, no waders
+  - I'd like to finish with this paper over the weekend
+
 ## 23 February 2023
 - Reading [Dormann et al. 2018](https://onlinelibrary.wiley.com/doi/abs/10.1002/ecm.1309)
 - Drew the conceptual figure below to digest what I read yesterday
@@ -31,6 +38,7 @@ format:
 
 ## 21 February 2023
 
+- attended Think Tank
 - Reviewed Ch. 3 methodology, preparing answers to these questions (I mostly wrote these):
   - Describe what I mean by ensemble modelling
   - What are the various approaches to ensemble modelling?
