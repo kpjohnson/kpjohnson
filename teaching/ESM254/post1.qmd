@@ -1,0 +1,15 @@
+---
+title: "How I prepared to teach ESM254"
+author: "Kristin Privitera-Johnson"
+date: "2023-02-26"
+draft: TRUE
+categories: ["teaching", "ESM254", "quantitative fisheries science"]
+format:
+  html:
+    toc: true
+---
+
+# How did I organize my materials?
+# When did I even have time to build a new course?
+# What were the course goals?
+# 

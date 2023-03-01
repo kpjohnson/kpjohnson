@@ -10,10 +10,28 @@ format:
 
 # Monthly Goals
 - Review the Population Dynamics section of the Punt Student reading list
+  - End of month review: I created a table of the papers in this list and divided the papers into their respective subthemes.
 - Prepare the second draft of the Proposal Presentation for my General Exam
+  - End of month review: Produced a second draft of the outline
+  - End of month review: Produced a less tangible but just as important mental third draft of the Ch. 3 section of the Power Point
 - Write code to implement a linear ramp for the phasing in harvest control rule for Ch. 1
+  - End of month review: Overcame major point of confusion. Code is implemented, just need to run comparisons to see how it performs.
 
 # Daily Snapshots
+
+## 28 February 2023
+- Started building horrendacharts to summarize my current understanding of ensemble modeling
+- This will become the bulk of the updates in understanding I will feature in my Ch. 3 section of General Exam slide deck
+
+![Working through the definitions of various steps in ensemble modelling.](ensemble.jpg) 
+![Combining descriptions of these methods across papers.](modelwts.jpg)
+![Summary from Dormann et al. 2018.](modelwts2.jpg)
+
+## 27 February 2023
+- Reading [Dormann et al. 2018](https://onlinelibrary.wiley.com/doi/abs/10.1002/ecm.1309)
+- Finished thumbing through the methods for estimating model weights
+- Started writing more detailed answers to questions outlined on 21 Feb 23
+- Wrestled with the idea that I was using ensemble modelling and model averaging as interchangeable terms. They really aren't.
 
 ## 24 February 2023
 - met with weekly accountability group to conduct a retrospective for this week's work and to establish priorities for next week's work

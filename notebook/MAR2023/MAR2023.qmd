@@ -1,0 +1,20 @@
+---
+title: "March 2023 Goals"
+author: "Kristin Privitera-Johnson"
+date: "2023-02-27"
+categories: ["SAFS", "monthly goals", "daily snapshots"]
+format:
+  html:
+    toc: true
+---
+
+# Monthly Goals
+- Review the following sections of the Punt Student reading list:
+    - Stock Assessment
+    - Ecology and Ecosystems (compare to TEE quals reading list)
+    - Fisheries Management and Policy
+- Prepare the final draft of the Proposal Presentation for my General Exam
+- Run simulations for Ch. 1 natural mortality experiment using the status quo HCR and the phase-in HCR
+  
+
+# Daily Snapshots
