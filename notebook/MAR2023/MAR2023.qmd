@@ -15,6 +15,18 @@ format:
     - Fisheries Management and Policy
 - Prepare the final draft of the Proposal Presentation for my General Exam
 - Run simulations for Ch. 1 natural mortality experiment using the status quo HCR and the phase-in HCR
-  
 
 # Daily Snapshots
+  
+## 8 March 2023
+- final draft of proposal presentation for General Exam
+  - Chapter 1 components filled in (50%)
+
+## 7 March 2023
+- started building the final draft of proposal presentation for General Exam
+  - new outline produced
+  - introduction components filled in
+
+## 1 March - 6 March 2023
+- some pretty serious burn out
+- watched Ian Stewart's NOAA Monster Jam seminar about the use of ensemble modelling at IPHC
