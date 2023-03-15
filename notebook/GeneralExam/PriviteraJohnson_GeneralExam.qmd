@@ -1,0 +1,181 @@
+---
+title: "Privitera-Johnson General Exam"
+author: "Kristin Privitera-Johnson"
+format: 
+  revealjs:
+    theme: dark
+    chalkboard:
+      src: chalkboard.json
+editor: visual
+---
+
+# Producing scientific advice in a changing world
+
+A working title
+
+## Motivation
+
+```{r, eval=FALSE}
+
+# load ggvenn package
+library("ggvenn")
+
+# use data frame as input
+# use data.frame as input
+d <- tibble(value = c(1, 2, 3, 5, 6, 7, 8, 9),
+            `Cultural` = c(TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, FALSE, TRUE),
+            `Conservation` = c(TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE),
+            `Economics` = c(TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE),
+            `Recreation` = c(FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, FALSE, FALSE))
+
+p <- ggplot(d) +
+  geom_venn(aes(A = `Cultural`, B = `Conservation`, C = `Economics`, D = `Recreation`), 
+            show_percentage = FALSE,
+            fill_color=c("#a6cee3", "#1f78b4", "#b2df8a", "#33a02c"),
+            text_size=0,
+            set_name_size=5,
+            set_name_color="white",
+            stroke_color="white") +
+  coord_fixed() +
+  theme_void()
+
+ggsave('dissertVD.png', p, bg='transparent')
+
+```
+
+![](dissertVD.png){fig-align="center"}
+
+<!-- ## Motivation {background-image=hobart.jpg} -->
+
+<!-- ![](dissertVD.png){fig-align="center"} -->
+
+## Scientific Motivation
+
+How do you know when you're successful? From a single-species point-of-view you want to know things like:
+
+::: incremental
+-   Reference points:
+    -   What is B and/or F?
+    -   How does B and/or F compare to historical B and/or F?
+-   Population dynamics:
+    -   How do B and F influence average net production rates?
+    -   How do components of net production vary over time?
+:::
+
+## Broad research questions
+
+## Chapter Themes
+
+::: incremental
+-   Ch. 1: Phase-in HCR et al.
+-   Ch. 2: Assessment frequency vs. increasing scientific uncertainty buffers
+-   Ch. 3: Incorporating multimodel inference into a climate-linked MSE framework
+-   Ch. 4: MSE Interviews
+:::
+
+## Chapters 1-2 Status Updates
+
+::: incremental
+-   Ch. 1: Phase-in HCR et al.
+    -   Analysis ongoing.
+    -   Target dates end of academic year
+-   Ch. 2: Assessment frequency vs. increasing scientific uncertainty buffers
+    -   Toy model stage.
+    -   Target date 2023-2024 Academic Year
+:::
+
+## Chapters 3-4 Status Updates
+
+::: incremental
+-   Ch. 3: Incorporating multimodel inference into a climate-linked MSE framework
+    -   Theoretical stage.
+    -   Target date 2023-2024 Academic Year or 2024 calendar year
+-   Ch. 4: MSE Interviews
+    -   Exploring semi-structured interviews.
+    -   Target date End of 2023 calendar year
+:::
+
+# Chapter 1
+
+## Observation
+
+-   Estimating important life history parameters (e.g., natural mortality, M, and stock-recruit steepness, h) is often complicated by short and uninformative time series of data and assessments may rely on meta-analyses to set these parameters (see Hamel 2015; Dorn 2011). Unfortunately, the stock status produced by these assessment models tend to be very sensitive to the values of these parameters (e.g., US West Coast yelloweye rockfish (Sebastes ruberrimus), Gertseva and Cope 2017).
+
+## Resulting Questions
+
+-   What kinds of changes in assessments result in large changes in biomass and overfishing limit estimates?
+    -   Answer: New data, different parameters, and different model assumptions
+    -   For US West Coast canary rockfish (Sebastes pinniger), the discovery of previously unaccounted landings data updated the catch history of California Current groundfishes and led to a 14%, on average, reduction in scale of the estimated spawning biomass time-series (Stewart 2009).
+    -   The US West Coast black rockfish (Sebastes melanops) assessments incorporated new model assumptions (and, thus, increased model uncertainty and sensitivity) by assuming stepwise increases in age- and sex-specific M (of varying magnitude) to model the recent disappearance of older females in the population (Cope et al. 2015; Sampson 2007).
+
+## Methods Breakdown
+
+- draw Figure 1.2 but more bare bones
+- write in where each experiment will go
+- move change in catch history to fishery model section
+
+
+## Simulation Design {.smaller}
+
++-------------+:-------------:+:-----:+:-----:+:-----:+:-----:+
+| **Factors** | **Reference** | **A** | **B** | **C** | **D** |
++-------------+---------------+-------+-------+-------+-------+
+| Species     | All           | All   | All   | All   | All   |
++-------------+---------------+-------+-------+-------+-------+
+| M (OM)      |               | \-    | \-    | \-    | \-    |
++-------------+---------------+-------+-------+-------+-------+
+| M (EM)      |               |       | \-    | \-    | \-    |
++-------------+---------------+-------+-------+-------+-------+
+| Catch (OM)  |               | \-    | \-    | \-    | \-    |
++-------------+---------------+-------+-------+-------+-------+
+| Catch (EM)  |               | \-    |       | \-    | \-    |
++-------------+---------------+-------+-------+-------+-------+
+| S-R (OM)    |               | \-    | \-    | \-    | \-    |
++-------------+---------------+-------+-------+-------+-------+
+| S-R (EM)    |               | \-    | \-    |       | \-    |
++-------------+---------------+-------+-------+-------+-------+
+| Selex (OM)  |               | \-    | \-    | \-    | \-    |
++-------------+---------------+-------+-------+-------+-------+
+| Selex (EM)  |               | \-    | \-    | \-    |       |
++-------------+---------------+-------+-------+-------+-------+
+
+## Relevant Plots
+
+## What I expect to find out
+
+
+# Chapter 2
+
+## Observation
+
+## Resulting Questions
+
+## Methods Breakdown
+
+## Relevant Plots
+
+## What I expect to find out
+
+# Chapter 3
+
+## Observation
+
+## Resulting Questions
+
+## Methods Breakdown
+
+## Relevant Plots
+
+## What I expect to find out
+
+# Chapter 4
+
+## Observation
+
+## Resulting Questions
+
+## Methods Breakdown
+
+## Relevant Plots
+
+## What I expect to find out

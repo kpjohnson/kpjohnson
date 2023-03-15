@@ -17,6 +17,15 @@ format:
 - Run simulations for Ch. 1 natural mortality experiment using the status quo HCR and the phase-in HCR
 
 # Daily Snapshots
+
+## 13 March 2023
+- finished Ch. 1 section of final draft slide deck
+- produced best available plots from Ch. 1 for slide deck
+- skimmed wiedenmann et al. paper and make checklist for Ch. 2 plots
+- started final draft of Ch. 2 section of slide deck
+
+## 11 March 2023
+- drafted final prioritization list for exam prep
   
 ## 8 March 2023
 - final draft of proposal presentation for General Exam
@@ -29,4 +38,4 @@ format:
 
 ## 1 March - 6 March 2023
 - some pretty serious burn out
-- watched Ian Stewart's NOAA Monster Jam seminar about the use of ensemble modelling at IPHC
+- watched Ian Stewart's NOAA Monster Jam seminar about the use of ensemble modelling at IPHC for Ch. 3
