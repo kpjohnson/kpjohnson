@@ -45,13 +45,9 @@ ggsave('dissertVD.png', p, bg='transparent')
 
 ![](dissertVD.png){fig-align="center"}
 
-<!-- ## Motivation {background-image=hobart.jpg} -->
-
-<!-- ![](dissertVD.png){fig-align="center"} -->
-
 ## Scientific Motivation
 
-How do you know when you're successful? From a single-species point-of-view you want to know things like:
+How do you know when you're successful? From a single-species point-of-view you may want to know things like:
 
 ::: incremental
 -   Reference points:
@@ -62,7 +58,20 @@ How do you know when you're successful? From a single-species point-of-view you 
     -   How do components of net production vary over time?
 :::
 
-## Broad research questions
+## Broad research questions pt. 1
+
+![](oldthemes.png){fig-align="center"}
+
+## Broad research questions pt. 2
+
+"All models are wrong but some are useful"
+
+::: incremental
+-   How can analysts leverage this principle to evaluate management strategies?
+-   How can modelling efforts influence management outcomes?
+-   How have some of these modelling efforts lead to surprising management outcomes?
+    -   What did analysts learn from these surprises (and apply that to future modelling)?
+:::
 
 ## Chapter Themes
 
@@ -97,85 +106,117 @@ How do you know when you're successful? From a single-species point-of-view you 
 
 # Chapter 1
 
-## Observation
+## Ch. 1 Questions
 
--   Estimating important life history parameters (e.g., natural mortality, M, and stock-recruit steepness, h) is often complicated by short and uninformative time series of data and assessments may rely on meta-analyses to set these parameters (see Hamel 2015; Dorn 2011). Unfortunately, the stock status produced by these assessment models tend to be very sensitive to the values of these parameters (e.g., US West Coast yelloweye rockfish (Sebastes ruberrimus), Gertseva and Cope 2017).
-
-## Resulting Questions
-
--   What kinds of changes in assessments result in large changes in biomass and overfishing limit estimates?
-    -   Answer: New data, different parameters, and different model assumptions
-    -   For US West Coast canary rockfish (Sebastes pinniger), the discovery of previously unaccounted landings data updated the catch history of California Current groundfishes and led to a 14%, on average, reduction in scale of the estimated spawning biomass time-series (Stewart 2009).
-    -   The US West Coast black rockfish (Sebastes melanops) assessments incorporated new model assumptions (and, thus, increased model uncertainty and sensitivity) by assuming stepwise increases in age- and sex-specific M (of varying magnitude) to model the recent disappearance of older females in the population (Cope et al. 2015; Sampson 2007).
+::: incremental
+-   What happens to management quantities of interest when catch stability mechanisms are used to minimize interannual variation in catch when new stock assessments result in a major increase or decrease in the overfishing limit?
+-   How well do phase-in and catch limit restraints perform when a new assessment model leads to changes in the estimates of natural mortality, stock-recruit steepness, catch history, and selectivity form for long- and short-lived stocks?
+:::
 
 ## Methods Breakdown
 
-- draw Figure 1.2 but more bare bones
-- write in where each experiment will go
-- move change in catch history to fishery model section
-
+![](Ch.%201%20MSE%20Figure.png){fig-align="center"}
 
 ## Simulation Design {.smaller}
 
-+-------------+:-------------:+:-----:+:-----:+:-----:+:-----:+
-| **Factors** | **Reference** | **A** | **B** | **C** | **D** |
-+-------------+---------------+-------+-------+-------+-------+
-| Species     | All           | All   | All   | All   | All   |
-+-------------+---------------+-------+-------+-------+-------+
-| M (OM)      |               | \-    | \-    | \-    | \-    |
-+-------------+---------------+-------+-------+-------+-------+
-| M (EM)      |               |       | \-    | \-    | \-    |
-+-------------+---------------+-------+-------+-------+-------+
-| Catch (OM)  |               | \-    | \-    | \-    | \-    |
-+-------------+---------------+-------+-------+-------+-------+
-| Catch (EM)  |               | \-    |       | \-    | \-    |
-+-------------+---------------+-------+-------+-------+-------+
-| S-R (OM)    |               | \-    | \-    | \-    | \-    |
-+-------------+---------------+-------+-------+-------+-------+
-| S-R (EM)    |               | \-    | \-    |       | \-    |
-+-------------+---------------+-------+-------+-------+-------+
-| Selex (OM)  |               | \-    | \-    | \-    | \-    |
-+-------------+---------------+-------+-------+-------+-------+
-| Selex (EM)  |               | \-    | \-    | \-    |       |
-+-------------+---------------+-------+-------+-------+-------+
+![](ch1_exp_table.png){fig-align="center"}
 
-## Relevant Plots
+## Catch Stability Mechanisms
 
-## What I expect to find out
+![](ch1_csm.png){fig-align="center"}
 
+## Updating the phase-in HCR
+
+::: incremental
+![](phasein_before.png){fig-align="center"}
+
+![](ch1_phase_pt1.png)
+![](ch1_phase_pt2.png){fig-align="center"}
+
+![](ch1_phase_pt3.png){fig-align="center"}
+:::
+
+## MSE performance metrics
+
+![](ch1_perf_metrics.png){fig-align="center"}
 
 # Chapter 2
 
-## Observation
+## Ch. 2 Questions
 
-## Resulting Questions
+::: incremental
 
-## Methods Breakdown
+- What are the potential costs associated with lost yield relative to the cost of conducting another assessment within a ten-year assessment interval?
 
-## Relevant Plots
+- How does assessment bias (by way of assessment frequency and increasing scientific uncertainty buffers) influence management quantities of interest for various levels of attained catch for target and nontarget stocks?
+    - Catch limits are taken completely (100% attainment)
+    - Catch limits are less than the Annual Catch Limits
+    - Catch limits are set for a stock that interacts with another stock
+:::
 
-## What I expect to find out
+##
+
+![](ch2diagram.png){fig-align="center"} 
+
+## Comparisons to be made 
+
+::: incremental
+- a baseline time series generated with annual assessments and no increasing scientific uncertainty buffers
+
+with increasing scientific uncertainty buffers: 
+
+- time series generated with new assessments every 2 years 
+- time series with new assessments every 5 years 
+- time series with a new assessment in the tenth year
+
+:::
 
 # Chapter 3
 
-## Observation
+## Ch. 3 Questions
 
-## Resulting Questions
+::: incremental
+-   Can an ensemble modeling approach mitigate the consequences of model misspecification associated with selecting a single climate model for forecasts and assessments?
+-   Does it matter where along the MSE process the ensemble modeling takes place? i.e., How do the reference points change when
+  - a single estimation method using model output from an ensemble of climate models
+  - an ensemble of estimation method output consisting of one estimation method for each climate model
+:::
 
 ## Methods Breakdown
 
-## Relevant Plots
+![](ch3diagram.png){fig-align="center"} 
 
-## What I expect to find out
+## Simulation Design ![](ch3exptable.png){fig-align="center"} 
+
+## Bayesian model-based weights: Spence et al.
+![](ch3spence.png) 
+
+## Bayesian model-based weights pt. 2 
+![](ch3spencediagram.png){fig-align="center"} 
+
+## Potential HCRs 
+
+![](ch3_HCR_pt1.png){fig-align="center"} 
+
+![](ch3_HCR_pt2.png){fig-align="center"} 
 
 # Chapter 4
 
-## Observation
+## Ch. 4 Questions
 
-## Resulting Questions
+::: incremental
+-   Which factors influence the range of uncertainties addressed in an MSE?
+-   What are examples of implemented meta-rules for tactical MSEs?
+-   Which jurisdictions have conducted multiple MSEs for a fishery?
+-   Which uncertainties were addressed in each MSE and why?
+-   Are there common factors that influence the use of insufficient ranges of uncertainty when performance was inadequate or subsequent monitoring results were surprising?
+:::
 
 ## Methods Breakdown
 
-## Relevant Plots
+-   To summarize which uncertainties were prioritized in the surveyed MSEs and how the range of uncertainties addressed changed over time and over multiple applications of MSEs and/or meta-rules for a single fishery, when applicable.
 
-## What I expect to find out
+## Interview themes
+![](ch4interviewthemes.png){fig-align="center"}
+
+# Continued discussion 

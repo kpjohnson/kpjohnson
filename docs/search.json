@@ -116,7 +116,7 @@
     "href": "notebook.html",
     "title": "Research Notebook",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\n\n\n\n\n\nPrivitera-Johnson General Exam\n\n\nKristin Privitera-Johnson\n\n\n\n\n5 min\n\n\n\n\n\n \n\n\n\nFeb 27, 2023\n\n\nMarch 2023 Goals\n\n\nKristin Privitera-Johnson\n\n\nSAFS,monthly goals,daily snapshots\n\n\n0 min\n\n\n\n\n\n\n\nFeb 10, 2023\n\n\nFebruary 2023 Goals\n\n\nKristin Privitera-Johnson\n\n\nSAFS,monthly goals,daily snapshots\n\n\n4 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\n\n\n\n\n\nPrivitera-Johnson General Exam\n\n\nKristin Privitera-Johnson\n\n\n\n\n5 min\n\n\n\n\n\n \n\n\n\nFeb 27, 2023\n\n\nMarch 2023 Goals\n\n\nKristin Privitera-Johnson\n\n\nSAFS,monthly goals,daily snapshots\n\n\n1 min\n\n\n\n\n\n\n\nFeb 10, 2023\n\n\nFebruary 2023 Goals\n\n\nKristin Privitera-Johnson\n\n\nSAFS,monthly goals,daily snapshots\n\n\n4 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/autobiographical/preUWSAFS.html",
@@ -157,22 +157,22 @@
     "objectID": "notebook/MAR2023/MAR2023.html#march-2023",
     "href": "notebook/MAR2023/MAR2023.html#march-2023",
     "title": "March 2023 Goals",
-    "section": "8 March 2023",
-    "text": "8 March 2023\n\nfinal draft of proposal presentation for General Exam\n\nChapter 1 components filled in (50%)"
+    "section": "14 - 16 March 2023",
+    "text": "14 - 16 March 2023\n\na marathon of slide deck building, season 5 of Queer Eye, reading papers, and receiving great mentorship\nI passed my General Exam!\nI’m going to take Spring Break off"
   },
   {
     "objectID": "notebook/MAR2023/MAR2023.html#march-2023-1",
     "href": "notebook/MAR2023/MAR2023.html#march-2023-1",
     "title": "March 2023 Goals",
-    "section": "7 March 2023",
-    "text": "7 March 2023\n\nstarted building the final draft of proposal presentation for General Exam\n\nnew outline produced\nintroduction components filled in"
+    "section": "13 March 2023",
+    "text": "13 March 2023\n\nfinished Ch. 1 section of final draft slide deck\nproduced best available plots from Ch. 1 for slide deck\nskimmed wiedenmann et al. paper and make checklist for Ch. 2 plots\nstarted final draft of Ch. 2 section of slide deck"
   },
   {
     "objectID": "notebook/MAR2023/MAR2023.html#march---6-march-2023",
     "href": "notebook/MAR2023/MAR2023.html#march---6-march-2023",
     "title": "March 2023 Goals",
     "section": "1 March - 6 March 2023",
-    "text": "1 March - 6 March 2023\n\nsome pretty serious burn out\nwatched Ian Stewart’s NOAA Monster Jam seminar about the use of ensemble modelling at IPHC"
+    "text": "1 March - 6 March 2023\n\nsome pretty serious burn out\nwatched Ian Stewart’s NOAA Monster Jam seminar about the use of ensemble modelling at IPHC for Ch. 3"
   },
   {
     "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#motivation",
@@ -186,7 +186,7 @@
     "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#scientific-motivation",
     "title": "Privitera-Johnson General Exam",
     "section": "Scientific Motivation",
-    "text": "Scientific Motivation\nHow do you know when you’re successful? From a single-species point-of-view you want to know things like:\n\n\nReference points:\n\nWhat is B and/or F?\nHow does B and/or F compare to historical B and/or F?\n\nPopulation dynamics:\n\nHow do B and F influence average net production rates?\nHow do components of net production vary over time?"
+    "text": "Scientific Motivation\nHow do you know when you’re successful? From a single-species point-of-view you may want to know things like:\n\n\nReference points:\n\nWhat is B and/or F?\nHow does B and/or F compare to historical B and/or F?\n\nPopulation dynamics:\n\nHow do B and F influence average net production rates?\nHow do components of net production vary over time?"
   },
   {
     "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#broad-research-questions",
@@ -235,14 +235,14 @@
     "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#methods-breakdown",
     "title": "Privitera-Johnson General Exam",
     "section": "Methods Breakdown",
-    "text": "Methods Breakdown\n\ndraw Figure 1.2 but more bare bones\nwrite in where each experiment will go\nmove change in catch history to fishery model section"
+    "text": "Methods Breakdown"
   },
   {
     "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#simulation-design",
     "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#simulation-design",
     "title": "Privitera-Johnson General Exam",
     "section": "Simulation Design",
-    "text": "Simulation Design\n\n\n\n\n\n\n\n\n\n\n\nFactors\nReference\nA\nB\nC\nD\n\n\nSpecies\nAll\nAll\nAll\nAll\nAll\n\n\nM (OM)\n\n-\n-\n-\n-\n\n\nM (EM)\n\n\n-\n-\n-\n\n\nCatch (OM)\n\n-\n-\n-\n-\n\n\nCatch (EM)\n\n-\n\n-\n-\n\n\nS-R (OM)\n\n-\n-\n-\n-\n\n\nS-R (EM)\n\n-\n-\n\n-\n\n\nSelex (OM)\n\n-\n-\n-\n-\n\n\nSelex (EM)\n\n-\n-\n-"
+    "text": "Simulation Design"
   },
   {
     "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#relevant-plots",
@@ -312,7 +312,7 @@
     "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#methods-breakdown-2",
     "title": "Privitera-Johnson General Exam",
     "section": "Methods Breakdown",
-    "text": "Methods Breakdown"
+    "text": "Methods Breakdown\n\nTo summarize which uncertainties were prioritized in the surveyed MSEs and how the range of uncertainties addressed changed over time and over multiple applications of MSEs and/or meta-rules for a single fishery, when applicable."
   },
   {
     "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#relevant-plots-2",
@@ -362,5 +362,131 @@
     "title": "Privitera-Johnson General Exam",
     "section": "What I expect to find out",
     "text": "What I expect to find out"
+  },
+  {
+    "objectID": "notebook/MAR2023/MAR2023.html#march-2023-2",
+    "href": "notebook/MAR2023/MAR2023.html#march-2023-2",
+    "title": "March 2023 Goals",
+    "section": "11 March 2023",
+    "text": "11 March 2023\n\ndrafted final prioritization list for exam prep"
+  },
+  {
+    "objectID": "notebook/MAR2023/MAR2023.html#march-2023-3",
+    "href": "notebook/MAR2023/MAR2023.html#march-2023-3",
+    "title": "March 2023 Goals",
+    "section": "8 March 2023",
+    "text": "8 March 2023\n\nfinal draft of proposal presentation for General Exam\n\nChapter 1 components filled in (50%)"
+  },
+  {
+    "objectID": "notebook/MAR2023/MAR2023.html#march-2023-4",
+    "href": "notebook/MAR2023/MAR2023.html#march-2023-4",
+    "title": "March 2023 Goals",
+    "section": "7 March 2023",
+    "text": "7 March 2023\n\nstarted building the final draft of proposal presentation for General Exam\n\nnew outline produced\nintroduction components filled in"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#broad-research-questions-pt.-1",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#broad-research-questions-pt.-1",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Broad research questions pt. 1",
+    "text": "Broad research questions pt. 1"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#broad-research-questions-pt.-2",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#broad-research-questions-pt.-2",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Broad research questions pt. 2",
+    "text": "Broad research questions pt. 2\n“All models are wrong but some are useful”\n\n\nHow can analysts leverage this principle to evaluate management strategies?\nHow can modelling efforts influence management outcomes?\nHow have some of these modelling efforts lead to surprising management outcomes?\n\nWhat did analysts learn from these surprises (and apply that to future modelling)?"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#ch.-1-questions",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#ch.-1-questions",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Ch. 1 Questions",
+    "text": "Ch. 1 Questions\n\n\nWhat happens to management quantities of interest when catch stability mechanisms are used to minimize interannual variation in catch when new stock assessments result in a major increase or decrease in the overfishing limit?\nHow well do phase-in and catch limit restraints perform when a new assessment model leads to changes in the estimates of natural mortality, stock-recruit steepness, catch history, and selectivity form for long- and short-lived stocks?"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#catch-stability-mechanisms",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#catch-stability-mechanisms",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Catch Stability Mechanisms",
+    "text": "Catch Stability Mechanisms"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#updating-the-phase-in-hcr",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#updating-the-phase-in-hcr",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Updating the phase-in HCR",
+    "text": "Updating the phase-in HCR"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#mse-performance-metrics",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#mse-performance-metrics",
+    "title": "Privitera-Johnson General Exam",
+    "section": "MSE performance metrics",
+    "text": "MSE performance metrics"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#ch.-2-questions",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#ch.-2-questions",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Ch. 2 Questions",
+    "text": "Ch. 2 Questions\n\n\nWhat are the potential costs associated with lost yield relative to the cost of conducting another assessment within a ten-year assessment interval?\nHow does assessment bias (by way of assessment frequency and increasing scientific uncertainty buffers) influence management quantities of interest for various levels of attained catch for target and nontarget stocks?\n\nCatch limits are taken completely (100% attainment)\nCatch limits are less than the Annual Catch Limits\nCatch limits are set for a stock that interacts with another stock"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#comparisons-to-be-made",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#comparisons-to-be-made",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Comparisons to be made",
+    "text": "Comparisons to be made\n\n\na baseline time series generated with annual assessments and no increasing scientific uncertainty buffers\n\nwith increasing scientific uncertainty buffers:\n\ntime series generated with new assessments every 2 years\ntime series with new assessments every 5 years\ntime series with a new assessment in the tenth year"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#ch.-3-questions",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#ch.-3-questions",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Ch. 3 Questions",
+    "text": "Ch. 3 Questions\n\n\nCan an ensemble modeling approach mitigate the consequences of model misspecification associated with selecting a single climate model for forecasts and assessments?\nDoes it matter where along the MSE process the ensemble modeling takes place? i.e., How do the reference points change when\na single estimation method using model output from an ensemble of climate models\nan ensemble of estimation method output consisting of one estimation method for each climate model"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#simulation-design-1",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#simulation-design-1",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Simulation Design ",
+    "text": "Simulation Design"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#bayesian-model-based-weights-spence-et-al.",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#bayesian-model-based-weights-spence-et-al.",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Bayesian model-based weights: Spence et al.",
+    "text": "Bayesian model-based weights: Spence et al."
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#bayesian-model-based-weights-pt.-2",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#bayesian-model-based-weights-pt.-2",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Bayesian model-based weights pt. 2",
+    "text": "Bayesian model-based weights pt. 2"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#potential-hcrs",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#potential-hcrs",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Potential HCRs",
+    "text": "Potential HCRs"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#ch.-4-questions",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#ch.-4-questions",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Ch. 4 Questions",
+    "text": "Ch. 4 Questions\n\n\nWhich factors influence the range of uncertainties addressed in an MSE?\nWhat are examples of implemented meta-rules for tactical MSEs?\nWhich jurisdictions have conducted multiple MSEs for a fishery?\nWhich uncertainties were addressed in each MSE and why?\nAre there common factors that influence the use of insufficient ranges of uncertainty when performance was inadequate or subsequent monitoring results were surprising?"
+  },
+  {
+    "objectID": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#interview-themes",
+    "href": "notebook/GeneralExam/PriviteraJohnson_GeneralExam.html#interview-themes",
+    "title": "Privitera-Johnson General Exam",
+    "section": "Interview themes",
+    "text": "Interview themes"
   }
 ]

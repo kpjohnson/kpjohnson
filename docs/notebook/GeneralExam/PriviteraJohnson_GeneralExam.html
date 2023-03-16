@@ -357,12 +357,10 @@ Kristin Privitera-Johnson
 
 </div>
 
-<!-- ## Motivation {background-image=hobart.jpg} -->
-<!-- ![](dissertVD.png){fig-align="center"} -->
 <img data-src="dissertVD.png" class="r-stretch quarto-figure-center"></section>
 <section id="scientific-motivation" class="slide level2">
 <h2>Scientific Motivation</h2>
-<p>How do you know when you’re successful? From a single-species point-of-view you want to know things like:</p>
+<p>How do you know when you’re successful? From a single-species point-of-view you may want to know things like:</p>
 <div>
 <ul>
 <li class="fragment">Reference points:
@@ -378,8 +376,23 @@ Kristin Privitera-Johnson
 </ul>
 </div>
 </section>
-<section id="broad-research-questions" class="slide level2">
-<h2>Broad research questions</h2>
+<section id="broad-research-questions-pt.-1" class="slide level2">
+<h2>Broad research questions pt.&nbsp;1</h2>
+
+<img data-src="oldthemes.png" class="r-stretch quarto-figure-center"></section>
+<section id="broad-research-questions-pt.-2" class="slide level2">
+<h2>Broad research questions pt.&nbsp;2</h2>
+<p>“All models are wrong but some are useful”</p>
+<div>
+<ul>
+<li class="fragment">How can analysts leverage this principle to evaluate management strategies?</li>
+<li class="fragment">How can modelling efforts influence management outcomes?</li>
+<li class="fragment">How have some of these modelling efforts lead to surprising management outcomes?
+<ul>
+<li class="fragment">What did analysts learn from these surprises (and apply that to future modelling)?</li>
+</ul></li>
+</ul>
+</div>
 </section>
 <section id="chapter-themes" class="slide level2">
 <h2>Chapter Themes</h2>
@@ -431,196 +444,162 @@ Kristin Privitera-Johnson
 <h1>Chapter 1</h1>
 
 </section>
-<section id="observation" class="slide level2">
-<h2>Observation</h2>
+<section id="ch.-1-questions" class="slide level2">
+<h2>Ch. 1 Questions</h2>
+<div>
 <ul>
-<li>Estimating important life history parameters (e.g., natural mortality, M, and stock-recruit steepness, h) is often complicated by short and uninformative time series of data and assessments may rely on meta-analyses to set these parameters (see Hamel 2015; Dorn 2011). Unfortunately, the stock status produced by these assessment models tend to be very sensitive to the values of these parameters (e.g., US West Coast yelloweye rockfish (Sebastes ruberrimus), Gertseva and Cope 2017).</li>
+<li class="fragment">What happens to management quantities of interest when catch stability mechanisms are used to minimize interannual variation in catch when new stock assessments result in a major increase or decrease in the overfishing limit?</li>
+<li class="fragment">How well do phase-in and catch limit restraints perform when a new assessment model leads to changes in the estimates of natural mortality, stock-recruit steepness, catch history, and selectivity form for long- and short-lived stocks?</li>
 </ul>
-</section>
-<section id="resulting-questions" class="slide level2">
-<h2>Resulting Questions</h2>
-<ul>
-<li>What kinds of changes in assessments result in large changes in biomass and overfishing limit estimates?
-<ul>
-<li>Answer: New data, different parameters, and different model assumptions</li>
-<li>For US West Coast canary rockfish (Sebastes pinniger), the discovery of previously unaccounted landings data updated the catch history of California Current groundfishes and led to a 14%, on average, reduction in scale of the estimated spawning biomass time-series (Stewart 2009).</li>
-<li>The US West Coast black rockfish (Sebastes melanops) assessments incorporated new model assumptions (and, thus, increased model uncertainty and sensitivity) by assuming stepwise increases in age- and sex-specific M (of varying magnitude) to model the recent disappearance of older females in the population (Cope et al.&nbsp;2015; Sampson 2007).</li>
-</ul></li>
-</ul>
+</div>
 </section>
 <section id="methods-breakdown" class="slide level2">
 <h2>Methods Breakdown</h2>
-<ul>
-<li>draw Figure 1.2 but more bare bones</li>
-<li>write in where each experiment will go</li>
-<li>move change in catch history to fishery model section</li>
-</ul>
-</section>
+
+<img data-src="Ch. 1 MSE Figure.png" class="r-stretch quarto-figure-center"></section>
 <section id="simulation-design" class="slide level2 smaller">
 <h2>Simulation Design</h2>
-<table style="width:86%;">
-<colgroup>
-<col style="width: 19%">
-<col style="width: 22%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Factors</strong></td>
-<td style="text-align: center;"><strong>Reference</strong></td>
-<td style="text-align: center;"><strong>A</strong></td>
-<td style="text-align: center;"><strong>B</strong></td>
-<td style="text-align: center;"><strong>C</strong></td>
-<td style="text-align: center;"><strong>D</strong></td>
-</tr>
-<tr class="even">
-<td>Species</td>
-<td style="text-align: center;">All</td>
-<td style="text-align: center;">All</td>
-<td style="text-align: center;">All</td>
-<td style="text-align: center;">All</td>
-<td style="text-align: center;">All</td>
-</tr>
-<tr class="odd">
-<td>M (OM)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr class="even">
-<td>M (EM)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr class="odd">
-<td>Catch (OM)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr class="even">
-<td>Catch (EM)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr class="odd">
-<td>S-R (OM)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr class="even">
-<td>S-R (EM)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr class="odd">
-<td>Selex (OM)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr class="even">
-<td>Selex (EM)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
+
+<img data-src="ch1_exp_table.png" class="r-stretch quarto-figure-center"></section>
+<section id="catch-stability-mechanisms" class="slide level2">
+<h2>Catch Stability Mechanisms</h2>
+
+<img data-src="ch1_csm.png" class="r-stretch quarto-figure-center"></section>
+<section id="updating-the-phase-in-hcr" class="slide level2">
+<h2>Updating the phase-in HCR</h2>
+<div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="phasein_before.png"></p>
+</figure>
+</div>
+<p><img data-src="ch1_phase_pt1.png"> <img data-src="ch1_phase_pt2.png" data-fig-align="center"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="ch1_phase_pt3.png"></p>
+</figure>
+</div>
+</div>
 </section>
-<section id="relevant-plots" class="slide level2">
-<h2>Relevant Plots</h2>
-</section>
-<section id="what-i-expect-to-find-out" class="slide level2">
-<h2>What I expect to find out</h2>
-</section></section>
+<section id="mse-performance-metrics" class="slide level2">
+<h2>MSE performance metrics</h2>
+
+<img data-src="ch1_perf_metrics.png" class="r-stretch quarto-figure-center"></section></section>
 <section>
 <section id="chapter-2" class="title-slide slide level1 center">
 <h1>Chapter 2</h1>
 
 </section>
-<section id="observation-1" class="slide level2">
-<h2>Observation</h2>
+<section id="ch.-2-questions" class="slide level2">
+<h2>Ch. 2 Questions</h2>
+<div>
+<ul>
+<li class="fragment"><p>What are the potential costs associated with lost yield relative to the cost of conducting another assessment within a ten-year assessment interval?</p></li>
+<li class="fragment"><p>How does assessment bias (by way of assessment frequency and increasing scientific uncertainty buffers) influence management quantities of interest for various levels of attained catch for target and nontarget stocks?</p>
+<ul>
+<li class="fragment">Catch limits are taken completely (100% attainment)</li>
+<li class="fragment">Catch limits are less than the Annual Catch Limits</li>
+<li class="fragment">Catch limits are set for a stock that interacts with another stock</li>
+</ul></li>
+</ul>
+</div>
 </section>
-<section id="resulting-questions-1" class="slide level2">
-<h2>Resulting Questions</h2>
-</section>
-<section id="methods-breakdown-1" class="slide level2">
-<h2>Methods Breakdown</h2>
-</section>
-<section id="relevant-plots-1" class="slide level2">
-<h2>Relevant Plots</h2>
-</section>
-<section id="what-i-expect-to-find-out-1" class="slide level2">
-<h2>What I expect to find out</h2>
+<section id="section" class="slide level2">
+<h2></h2>
+
+<img data-src="ch2diagram.png" class="r-stretch quarto-figure-center"></section>
+<section id="comparisons-to-be-made" class="slide level2">
+<h2>Comparisons to be made</h2>
+<div>
+<ul>
+<li class="fragment">a baseline time series generated with annual assessments and no increasing scientific uncertainty buffers</li>
+</ul>
+<p>with increasing scientific uncertainty buffers:</p>
+<ul>
+<li class="fragment">time series generated with new assessments every 2 years</li>
+<li class="fragment">time series with new assessments every 5 years</li>
+<li class="fragment">time series with a new assessment in the tenth year</li>
+</ul>
+</div>
 </section></section>
 <section>
 <section id="chapter-3" class="title-slide slide level1 center">
 <h1>Chapter 3</h1>
 
 </section>
-<section id="observation-2" class="slide level2">
-<h2>Observation</h2>
+<section id="ch.-3-questions" class="slide level2">
+<h2>Ch. 3 Questions</h2>
+<div>
+<ul>
+<li class="fragment">Can an ensemble modeling approach mitigate the consequences of model misspecification associated with selecting a single climate model for forecasts and assessments?</li>
+<li class="fragment">Does it matter where along the MSE process the ensemble modeling takes place? i.e., How do the reference points change when</li>
+<li class="fragment">a single estimation method using model output from an ensemble of climate models</li>
+<li class="fragment">an ensemble of estimation method output consisting of one estimation method for each climate model</li>
+</ul>
+</div>
 </section>
-<section id="resulting-questions-2" class="slide level2">
-<h2>Resulting Questions</h2>
-</section>
-<section id="methods-breakdown-2" class="slide level2">
+<section id="methods-breakdown-1" class="slide level2">
 <h2>Methods Breakdown</h2>
+
+<img data-src="ch3diagram.png" class="r-stretch quarto-figure-center"></section>
+<section id="simulation-design-1" class="slide level2">
+<h2>Simulation Design <img data-src="ch3exptable.png" data-fig-align="center"></h2>
 </section>
-<section id="relevant-plots-2" class="slide level2">
-<h2>Relevant Plots</h2>
-</section>
-<section id="what-i-expect-to-find-out-2" class="slide level2">
-<h2>What I expect to find out</h2>
+<section id="bayesian-model-based-weights-spence-et-al." class="slide level2">
+<h2>Bayesian model-based weights: Spence et al.</h2>
+
+<img data-src="ch3spence.png" class="r-stretch"></section>
+<section id="bayesian-model-based-weights-pt.-2" class="slide level2">
+<h2>Bayesian model-based weights pt.&nbsp;2</h2>
+
+<img data-src="ch3spencediagram.png" class="r-stretch quarto-figure-center"></section>
+<section id="potential-hcrs" class="slide level2">
+<h2>Potential HCRs</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="ch3_HCR_pt1.png"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="ch3_HCR_pt2.png"></p>
+</figure>
+</div>
 </section></section>
 <section>
 <section id="chapter-4" class="title-slide slide level1 center">
 <h1>Chapter 4</h1>
 
 </section>
-<section id="observation-3" class="slide level2">
-<h2>Observation</h2>
+<section id="ch.-4-questions" class="slide level2">
+<h2>Ch. 4 Questions</h2>
+<div>
+<ul>
+<li class="fragment">Which factors influence the range of uncertainties addressed in an MSE?</li>
+<li class="fragment">What are examples of implemented meta-rules for tactical MSEs?</li>
+<li class="fragment">Which jurisdictions have conducted multiple MSEs for a fishery?</li>
+<li class="fragment">Which uncertainties were addressed in each MSE and why?</li>
+<li class="fragment">Are there common factors that influence the use of insufficient ranges of uncertainty when performance was inadequate or subsequent monitoring results were surprising?</li>
+</ul>
+</div>
 </section>
-<section id="resulting-questions-3" class="slide level2">
-<h2>Resulting Questions</h2>
-</section>
-<section id="methods-breakdown-3" class="slide level2">
+<section id="methods-breakdown-2" class="slide level2">
 <h2>Methods Breakdown</h2>
+<ul>
+<li>To summarize which uncertainties were prioritized in the surveyed MSEs and how the range of uncertainties addressed changed over time and over multiple applications of MSEs and/or meta-rules for a single fishery, when applicable.</li>
+</ul>
 </section>
-<section id="relevant-plots-3" class="slide level2">
-<h2>Relevant Plots</h2>
-</section>
-<section id="what-i-expect-to-find-out-3" class="slide level2">
-<h2>What I expect to find out</h2>
+<section id="interview-themes" class="slide level2">
+<h2>Interview themes</h2>
+
+<img data-src="ch4interviewthemes.png" class="r-stretch quarto-figure-center"></section></section>
+<section id="continued-discussion" class="title-slide slide level1 center">
+<h1>Continued discussion</h1>
 
 <div class="footer footer-default">
 
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
