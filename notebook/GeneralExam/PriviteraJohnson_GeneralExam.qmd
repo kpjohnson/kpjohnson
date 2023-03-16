@@ -6,7 +6,8 @@ format:
     theme: dark
     chalkboard:
       src: chalkboard.json
-editor: visual
+date: "2023-03-16"
+categories: ["SAFS", "General Exam"]
 ---
 
 # Producing scientific advice in a changing world
