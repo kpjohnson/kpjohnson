@@ -18,6 +18,13 @@ format:
 
 # Daily Snapshots
 
+## 27 - 31 March 2023
+- troubleshooting the phase-in HCR code for Ch. 1
+  - work sessions on the 27th, 28th, and 31st
+
+## 20 - 24 March 2023
+- real human stuff
+
 ## 14 - 16 March 2023
 - a marathon of slide deck building, season 5 of Queer Eye, reading papers, and receiving great mentorship
 - I passed my General Exam! 
