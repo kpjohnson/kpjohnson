@@ -15,6 +15,10 @@ format:
 
 # Daily Snapshots
 
+## 19 April 2023
+- fixed the phase-in HCR code and implemented OFL constraints
+- created a table comparing all the catch
+
 ## 17 April 2023
 - continued troubleshooting the phase-in HCR code for Ch. 1, there's something up with the for loops
 - met with adviser to check-in + diagnose issues with phase-in HCR code
